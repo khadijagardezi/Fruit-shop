@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body> 
+  <div class="container">
+  <h2 class="h2">Welcome to Online Fruits Shop! <img src="assets/shopping-cart.png" alt="" width="40px"> </h2>
+  <div>
+  <input type="number" id="budget input" placeholder="Add your Budget here"/>
+  <button id="btn-1" onclick="input();">Click</button>
+  <p class="budgetLine"></p>
+</div> <br>
+<div class="flexAll">
+<!-- Apple --> 
+<div class="box">
+  
+  <img src="assets/apple.png" width="170px"/>
+  <h3> Price = 15</h3>
+  <br>
+  <button class="btn" onclick="addd()">+</button>
+  <span id="quantityApple"></span>
+  <button class="btn" onclick="minuss()">-</button>  
+  </div>
+  <!-- 2nd Fruit -->
+  <div class="box">
+    <img src="assets/orange.png" width="170px"/>
+    <h3> Price = 30</h3>
+    <br>
+    <button class="btn" onclick="add2()">+</button>
+    <span id="quantityOrange"></span>
+    <button class="btn" onclick="minus2()">-</button>  
+    </div>
+    <!-- 3rd -->
+    <div class="box">
+      <img src="assets/cherry.png" width="170px"/>
+      <h3> Price = 40</h3>
+      <br>
+      <button class="btn" onclick="add3()">+</button>
+      <span id="quantityCherry"></span>
+      <button class="btn" onclick="minus3()">-</button>  
+      </div>
+</div>
+    <div class="flexAll">
+      <!-- 4th -->
+      <div class="box">
+        <img src="assets/banana.png" width="170px"/>
+        <h3> Price = 10</h3>
+        <br>
+        <button class="btn" onclick="add4()">+</button>
+        <span id="quantityBanana"></span>
+        <button class="btn" onclick="minus4()">-</button>  
+        </div>
+        <!-- 5th -->
+        <div class="box">
+          <img src="assets/grape.png" width="170px"/>
+          <h3> Price = 50</h3>
+          <br>
+          <button class="btn" onclick="add5()">+</button>
+          <span id="quantityGrapes"></span>
+          <button class="btn" onclick="minus5()">-</button>  
+          </div>
+          <!-- 6 -->
+          <div class="box">
+            <img src="assets/avocado.png" width="170px"/>
+            <h3> Price = 20</h3>
+            <br>
+            <button class="btn" onclick="add6()">+</button>
+            <span id="quantityAvocado"></span>
+            <button class="btn" onclick="minus7()">-</button>  
+            </div>
+          </div>
+          
+
+  </div>
+
+
+
+
+
+
+
+
+
+
+
+
+<section class="footer">
+  <!-- Total -->
+  <span id="total"></span> <br>
+  <!-- Balance -->
+  <span id="balance"></span>
+</section>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>
