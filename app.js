@@ -65,7 +65,7 @@ function minuss() {
 };
 
 // 2nd fruit
-function add3() {
+function add4() {
     budget = document.querySelector("input").value;
     if(budget==0) 
     alert("Go back home and bring some money");
@@ -83,7 +83,7 @@ function add3() {
 
 };
 
-function minus3() {
+function minus4() {
     if(quantityBanana !==0) {
         quantityBanana--;
         document.querySelector("#quantityBanana").innerHTML = quantityBanana;
@@ -125,7 +125,7 @@ function minus2() {
 
 // 4th fruit 
 
-function add4() {
+function add3() {
     budget = document.querySelector("input").value;
     if(budget==0) 
     alert("Go back home and bring some money");
@@ -142,7 +142,7 @@ function add4() {
 
 };
 
-function minus4() {
+function minus3() {
     if(quantityCherry !==0) {
         quantityCherry--;
         document.querySelector("#quantityCherry").innerHTML =  quantityCherry;
